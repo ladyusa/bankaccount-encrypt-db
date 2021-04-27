@@ -15,7 +15,7 @@ import java.util.Base64;
 public class AttributeEncryptor implements AttributeConverter<String, String> {
 
     private static final String AES = "AES";
-    private static final String SECRET = "USE_KEY_MANAGEMENT_FOR_THIS";
+    private static final String SECRET = "SHOULD_USE_KEYMANAGEMENT_INSTEAD";
 
     private final Key key;
     private final Cipher cipher;
